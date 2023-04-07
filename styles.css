@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #060606;
+}
+
+
+li, a, button {
+    font-size: 16px;
+    color: #edf0f1 ;
+    text-decoration: none;
+}
+
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+
+.Nav_links {
+    background-color: black;
+    list-style: none;
+}
+
+
+.Nav_links li {
+    background-color: black;
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+
+.Nav_links li a {
+    background-color: black;
+    transition: all 0.7s ease 0s;
+}
+
+
+.Nav_links li a:hover {
+    background-color: black;
+    color: #ff9100;
+    }
+
+
+button {
+    padding: 9px 25px;
+    background-color:rgba(225,143,0,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.7s ease 0s;
+}
+
+
+button:hover {
+    background-color: black;
+    background-color:rgba(225,143,0,0.8);
+}
+
+
+.cta {
+    background-color: black;
+}
+
+/* Animated logo */
+
+.play {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+}
+
+
+.play:hover {
+   cursor: pointer;
+   
+}
+
+/* ----------------*/
+
+.text_img {
+    text-align: center;
+    color: #edf0f1;
+}
+
+
+.image_gallery {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+
+
