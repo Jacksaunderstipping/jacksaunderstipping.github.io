@@ -10,14 +10,6 @@
     background-color: #060606;
 }
 
-
-li, a, button {
-    font-size: 16px;
-    color: #edf0f1 ;
-    text-decoration: none;
-}
-
-
 header {
     background-color: black;
     display: flex;
@@ -26,37 +18,11 @@ header {
     padding: 15px 10%;
 }
 
-
-.Nav_links {
-    background-color: black;
-    list-style: none;
-}
-
-
-.Nav_links li {
-    background-color: black;
-    display: inline-block;
-    padding: 20px 20px;
-}
-
-
-.Nav_links li a {
-    background-color: black;
-    transition: all 0.7s ease 0s;
-}
-
-
-.Nav_links li a:hover {
-    background-color: black;
-    color: #ff9100;
-    }
-
-
 button {
-    padding: 9px 25px;
+    padding: 7px 13px;
     background-color:rgba(225,143,0,1);
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.7s ease 0s;
 }
@@ -72,18 +38,15 @@ button:hover {
     background-color: black;
 }
 
-/* Animated logo */
+/* logo */
 
-.play {
+.logo {
     background-color: black;
-    width: 80px;
-    height: 80px;
-}
-
-
-.play:hover {
-   cursor: pointer;
-   
+    width: 120px;
+    height: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ----------------*/
